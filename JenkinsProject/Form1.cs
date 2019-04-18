@@ -22,7 +22,7 @@ namespace JenkinsProject
             label1.Text = "Me too";
             label1.Text = "Ten";
             label1.Text = "LastTest";
-            label1.Text = "Fail
+            label1.Text = "Fail"; 
         }
     }
 }
