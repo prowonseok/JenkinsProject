@@ -23,7 +23,7 @@ namespace JenkinsProject
             label1.Text = "Ten";
             label1.Text = "LastTest";
             label1.Text = "Fail"; 
-            label1.Text="Jira Fail Plz";
+            label1.Text="Jira Fail Plz"f2;
         }
     }
 }
