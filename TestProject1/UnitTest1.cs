@@ -14,8 +14,9 @@ namespace TestProject1
         [TestMethod]
         public void TestMethod1()
         {
+            string x;
             JenkinsProject.Form1 frm = new JenkinsProject.Form1();
-            frm.Form1_Load(null,null);
+            frm.Form1_Load(null,x);
         }
     }
 }
