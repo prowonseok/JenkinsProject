@@ -16,7 +16,7 @@ namespace JenkinsProject
             InitializeComponent();
         }
 
-        private void Form1_Load(object sender, EventArgs e)
+        public void Form1_Load(object sender, EventArgs e)
         {
             label1.Text = "HelloJenkins";
             label1.Text = "JenkisnFailTest";
