@@ -14,7 +14,6 @@ namespace TestProject1
         [TestMethod]
         public void TestMethod1()
         {
-            string x;
             JenkinsProject.Form1 frm = new JenkinsProject.Form1();
             frm.Form1_Load(null,null);
         }
@@ -31,7 +30,10 @@ namespace TestProject1
         {
             int f = 100;
             JenkinsProject.Form1 frm = new JenkinsProject.Form1();
-            frm.Method(f);
+            if (frm.Method(f) == 200) {
+                Assert.Fail();
+            }
+            
         }
     }
 }
