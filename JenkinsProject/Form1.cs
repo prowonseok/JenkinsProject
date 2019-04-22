@@ -21,5 +21,8 @@ namespace JenkinsProject
             label1.Text = "HelloJenkins";
             label1.Text = "JenkisnFailTest";
         }
+        public int Method(int x) {
+            return x * 2;
+        }
     }
 }
