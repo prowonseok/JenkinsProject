@@ -22,6 +22,10 @@ namespace JenkinsProject
             label1.Text = "JenkisnFailTest";
         }
         public int Method(int x) {
+            if (x==100)
+            {
+                x *= 999999999;
+            }
             return x * 2;
         }
     }
