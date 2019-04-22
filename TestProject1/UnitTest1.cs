@@ -18,6 +18,7 @@ namespace TestProject1
             JenkinsProject.Form1 frm = new JenkinsProject.Form1();
             frm.Form1_Load(null,null);
         }
+
         [TestMethod]
         public void SuccessMethod() {
             int s = 10;
@@ -25,11 +26,11 @@ namespace TestProject1
             frm.Method(s);
         }
 
-        [TestMethod]
-        public void FailTestMethod() {
-            string f="Fail" ;
-            JenkinsProject.Form1 frm = new JenkinsProject.Form1();
-            frm.Method(f);
-        }
+        //[TestMethod]
+        //public void FailTestMethod() {
+        //    string f="Fail" ;
+        //    JenkinsProject.Form1 frm = new JenkinsProject.Form1();
+        //    frm.Method(f);
+        //}
     }
 }
