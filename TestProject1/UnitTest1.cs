@@ -29,7 +29,7 @@ namespace TestProject1
         [TestMethod]
         public void FailTestMethod()
         {
-            string f = "Fail";
+            int f = 15;
             JenkinsProject.Form1 frm = new JenkinsProject.Form1();
             frm.Method(f);
         }
